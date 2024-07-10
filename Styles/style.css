@@ -311,7 +311,7 @@ margin: 32px 0px;
 
 #section-3 {/* Frame 15 */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 80px 97px 80px 97px;
@@ -321,14 +321,11 @@ margin: 32px 0px;
 
 #section-3 .video-div-one{
 position: static;
-width: 852px;
-height: 115px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 0px;
+
 
 }
 
@@ -340,6 +337,7 @@ font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
+justify-content: center;
     }
 
     #section-3 .video-div-one p{
@@ -355,15 +353,17 @@ text-align: center;
         }
     
 #section-3 .video-div-two{      
-position: static;
-width: 1140px;
-height: 614px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+    position: static;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 
 /* Inside Auto Layout */
 flex: none;
@@ -372,4 +372,16 @@ align-self: stretch;
 flex-grow: 0;
 margin: 48px 0px;
 
-        }
+}
+
+
+#section-3 .video-div-two .jhank iframe{
+    position: static;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    border-radius: 16px;
+
+
+}
+
