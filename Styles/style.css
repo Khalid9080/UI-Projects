@@ -57,5 +57,254 @@ opacity: 0.7;
     cursor: pointer;
 }
 
+#section-2 {
+
+    /* width: 924px;
+    margin: 50px auto; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 80px 97px 80px 97px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+
+}
+
+#section-2 .big-div {
+    position: static;
+    width: 950px;
+    height: 1235px;
+
+}
+
+#section-2 .big-div .k h1{
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+#section-2 .big-div .k p{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+#section-2 .big-div .first-div{
+    margin-top: 48px;
+
+position: static;
+ width: 950px;
+height: 220px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+}
+#section-2 .big-div .first-div .first-div-a .p1{
+color: rgb(0, 0, 0);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+
+}
 
 
+
+#section-2 .big-div .first-div .first-div-a .p2{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+
+}
+
+#section-2 .big-div .first-div .btn-learnmore{
+position: static;
+font-family: Azeret Mono;
+width: 150px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+
+}
+
+#section-2 .big-div .second-div{
+position: static;
+width: 950px;
+height: 220px;
+display: flex;
+flex-direction: row;
+justify-content: space-between ;
+align-items: flex-end;
+padding: 0px;
+margin-top: 48px;
+border-radius: 16px;
+
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+}
+
+#section-2 .big-div .second-div .second-div-b {
+    position: static;
+    width: 800px;
+    height: 220px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+
+}
+
+
+#section-2 .big-div .second-div .second-div-b .p3{
+color: rgb(0, 0, 0);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 0px;
+margin-top:0%;
+}
+
+#section-2 .big-div .second-div .second-div-b .p4{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+
+}
+
+#section-2 .big-div .second-div .second-div-b .btn-learnmore2{
+    box-sizing: border-box;
+ border: 1px solid rgb(13, 19, 33);
+ opacity: 0.7; 
+ font-family: Azeret Mono;
+
+ position: static;
+width: 150px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+
+}
+
+#section-2 .big-div .third-div{
+
+    position: static;
+    width: 950px;
+    height: 220px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 48x;
+    margin-top: 48px;
+    
+   
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+} 
+
+#section-2 .big-div .third-div .third-div-a .p5{
+    color: rgba(0, 0, 0,);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: static;
+
+
+}
+
+#section-2 .big-div .third-div .third-div-a .p6{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+
+}
+
+#section-2 .big-div .third-div .third-div-a .btn-learnmore3{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+/* Frame 7 */
+position: static;
+width: 149px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+
+}
