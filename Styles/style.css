@@ -561,18 +561,6 @@ border: none;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #section-4 .sec4-big-div .div2 .card3{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
@@ -618,4 +606,135 @@ border: none;
     }
     
     
-        
+#section-5{
+    background-image: url("../assets/handshake.jpg");
+    height: 800px;
+
+   border-radius: 10px;
+   margin-bottom: 30px;
+   background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+
+#section-5 .sec5-big-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#section-5 .sec5-big-div .support-div{
+    /* Frame 6 */
+position: static;
+/* width: 730px;
+height: 104px; */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 150px 0px;
+
+}
+
+#section-5 .sec5-big-div .support-div h1{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 50px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+
+#section-5 .sec5-big-div .support-div p{
+
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+
+#section-5 .sec5-big-div .search-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#section-5 .sec5-big-div .search-div input{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+
+    position: static;
+width: 548px;
+height: 57px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+
+
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: start;
+}
+
+#section-5 .sec5-big-div .search-div button{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+
+    /* Frame 8 */
+position: static;
+width: 120px;
+height: 58px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
